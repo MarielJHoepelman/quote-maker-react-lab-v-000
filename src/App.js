@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import QuoteForm from "./components/QuoteForm";
 import Quotes from "./containers/Quotes";
+=======
+import React, { Component } from 'react';
+import QuoteForm from "./components/QuoteForm"
+import Quotes from "./containers/Quotes"
+>>>>>>> 02a4a66b7479ddef77875d6c473eaf34213a421e
 
 class App extends Component {
   render() {
@@ -14,8 +20,14 @@ class App extends Component {
         </div>
         <hr />
 
+<<<<<<< HEAD
         <QuoteForm />
         <Quotes />
+=======
+        <QuoteForm/>
+        <Quotes/>
+
+>>>>>>> 02a4a66b7479ddef77875d6c473eaf34213a421e
       </div>
     );
   }
