@@ -30,7 +30,6 @@ class QuoteForm extends Component {
   };
 
   render() {
-    console.log("Hello from quote form")
     return (
       <div className="container">
         <div className="row">
